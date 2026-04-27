@@ -4,6 +4,7 @@ command = "npm-run-all check-env build-db check-db build-tracker build-recorder 
 [build.environment]
 SKIP_BUILD_GEO = "1"
 NEXT_TURBOPACK = "0"
+SKIP_DB_MIGRATION = "1"
 
 [functions]
 included_files = ["node_modules/.geo/**"]
